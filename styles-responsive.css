@@ -87,7 +87,7 @@
         transition: 0.4s ease;
     }
     .navigation-bar-nav.active{
-        height: 400px;
+        height: 460px;
         transition: 0.4s ease;
     }
     .navigation-bar-nav .navigation-list-primary{
@@ -220,7 +220,7 @@
         transition: 0.4s ease;
     }
     .navigation-bar-nav.active{
-        height: 45vh;
+        height: 50vh;
         transition: 0.4s ease;
     }
     .navigation-bar-nav .navigation-list-primary{
