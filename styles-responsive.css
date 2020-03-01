@@ -1,0 +1,272 @@
+@media screen and (min-width: 1050px) and (max-width: 1500px){
+    .global-naigation-container{
+        width: 100%;
+        max-width: 80%;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 1050px){
+    .header{
+        height: 60px;
+    }
+    .global-naigation-container{
+        width: 100%;
+        height: 30px;
+        max-width: 86%;
+        display: flex;
+    }
+    
+    .global-naigation-container .logo-toggle-section{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .logo-toggle-section .logo-text-hyperlink{
+        font-size: 22px;
+        position: absolute;
+        z-index: 5;
+    }
+    .burger-toggle{
+        position: absolute;
+        display: flex;
+        width: 22px;
+        height: 22px;
+        right: 7%;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .burger-toggle .icon-container{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+    .burger-toggle .burger-icon{
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 9px;
+        left: 0;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+    .burger-toggle .burger-icon:before{
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        top: -6px;
+        left: 0;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+    .burger-toggle .burger-icon:after{
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        top: 6px;
+        left: 0;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+
+    .navigation-bar-nav{
+        position: absolute;
+        width: 220px;
+        height: 0px;
+        top: 61px;
+        right: 0;
+        display: block;
+        -webkit-background: #DEB887;
+        background: #DEB887;
+        overflow: auto;
+        transition: 0.4s ease;
+    }
+    .navigation-bar-nav.active{
+        height: 400px;
+        transition: 0.4s ease;
+    }
+    .navigation-bar-nav .navigation-list-primary{
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+        transition: 0.2s ease;
+    }
+    .navigation-bar-nav.active .navigation-list-primary{
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+    .navigation-bar-nav .navigation-list-primary a{
+        font-size: 17px;
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        transition: 0.3s ease;
+    }
+    
+    
+    .navigation-bar-nav .navigation-list-secondary{
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        transition: 0.1s ease;
+    }
+    .navigation-bar-nav.active .navigation-list-secondary{
+        visibility: visible;
+        opacity: 1;
+        transition: 0.7s ease;
+    }
+
+    .navigation-bar-nav .navigation-list-secondary a{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 18px 0px;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 650px){
+    .header{
+        height: 60px;
+    }
+    .global-naigation-container{
+        width: 100%;
+        height: 30px;
+        max-width: 86%;
+        display: flex;
+    }
+    
+    .global-naigation-container .logo-toggle-section{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .logo-toggle-section .logo-text-hyperlink{
+        font-size: 22px;
+        position: absolute;
+        z-index: 5;
+    }
+    .burger-toggle{
+        position: absolute;
+        display: flex;
+        width: 22px;
+        height: 22px;
+        right: 7%;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .burger-toggle .icon-container{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+    .burger-toggle .burger-icon{
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 9px;
+        left: 0;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+    .burger-toggle .burger-icon:before{
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        top: -6px;
+        left: 0;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+    .burger-toggle .burger-icon:after{
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        top: 6px;
+        left: 0;
+        background: #ffffff;
+        border-radius: 5px;
+    }
+
+    .navigation-bar-nav{
+        position: absolute;
+        width: 48%;
+        height: 0vh;
+        top: 61px;
+        right: 0;
+        display: block;
+        -webkit-background: #DEB887;
+        background: #DEB887;
+        overflow: auto;
+        transition: 0.4s ease;
+    }
+    .navigation-bar-nav.active{
+        height: 45vh;
+        transition: 0.4s ease;
+    }
+    .navigation-bar-nav .navigation-list-primary{
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+        transition: 0.2s ease;
+    }
+    .navigation-bar-nav.active .navigation-list-primary{
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+    .navigation-bar-nav .navigation-list-primary a{
+        font-size: 17px;
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        transition: 0.3s ease;
+    }
+    
+    
+    .navigation-bar-nav .navigation-list-secondary{
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        transition: 0.1s ease;
+    }
+    .navigation-bar-nav.active .navigation-list-secondary{
+        visibility: visible;
+        opacity: 1;
+        transition: 0.7s ease;
+    }
+
+    .navigation-bar-nav .navigation-list-secondary a{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 18px 0px;
+    }
+}

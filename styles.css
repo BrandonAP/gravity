@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:300,400,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    -webkit-background: #ffffff;
+    background: #ffffff;
+    font-family: 'Spartan';
+}
+
+/*----------Navigation start----------*/
+.header{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-background: #DEB887;
+    background: #DEB887;
+    z-index: 50;
+}
+.global-naigation-container{
+    width: 100%;
+    height: 40px;
+    max-width: 1450px;
+    display: flex;
+}
+
+.global-naigation-container .logo-toggle-section{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.logo-toggle-section .logo-text-hyperlink{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+}
+.burger-toggle{
+    display: none;
+}
+
+.navigation-bar-nav{
+    width: 85%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-bar-nav li{
+    list-style: none;
+}
+.navigation-bar-nav a{
+    text-decoration: none;
+}
+.navigation-bar-nav .navigation-list-primary{
+    display: flex;
+    margin: 10px 0px;
+}
+.navigation-bar-nav .navigation-list-primary a{
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0px 10px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.navigation-bar-nav .navigation-list-primary a:hover{
+    opacity: 0.5;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+
+.navigation-bar-nav .navigation-list-secondary{
+    display: flex;
+    margin: 10px 0px;
+}
+.navigation-bar-nav .navigation-list-secondary a{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 10px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.navigation-bar-nav .navigation-list-secondary .nom{
+    margin-right: 0px;
+}
+.navigation-bar-nav .navigation-list-secondary a:hover{
+    opacity: 0.5;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+/*---------Naigation end----------*/
+
+
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+.second-section{
+    width: 100%;
+    height: 100vh;
+    -webkit-background: #DEB887;
+    background: #DEB887;
+}
+.third-section{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+
+/*----------Footer-----------*/
+.footer{
+    width: 100%;
+    height: 360px;
+    -webkit-background: #DEB887;
+    background: #DEB887;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-list .footer-navigation-list-element{
+    list-style: none;
+}
+.footer .footer-list .footer-navigation-list-element h4{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+}
+/*--------Footer end-------*/
